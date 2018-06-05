@@ -3,11 +3,10 @@ library("shiny")
 library("ggplot2")
 
 # Read data file
-income_growth <- read.csv('data/income_growth_1980-2014.csv')
+income_growth <- read.csv("data/income_growth_1980-2014.csv")
 
 # Define a server function
 server <- function(input, output) {
-  
   output$plot <- renderPlot({
     # return the plot
     ggplot(data = income_growth) +
