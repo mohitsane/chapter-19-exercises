@@ -1,4 +1,6 @@
 # Exercise 2
-In this exercise, you'll practice creating using Shiny layout and content elements.
+In this exercise, you'll practice building a simple Shiny application with a UI and Server by creating an interactive cost calculator:
 
-To complete the exercise, open the `exercise-1/ui.R` file in RStudio, and follow the instructions there. Note that the server has already been provided for you (in the `server.R` file)
+![Example cost calculator screen shot](img/example.png)
+
+To complete the exercise, open the `exercise-2/app.R` file in RStudio, and follow the instructions there.
