@@ -1,7 +1,7 @@
-# Chapter 16 Exercises
+# Chapter 19 Exercises
 
-This repository contains programming exercises for generated interactive data apps with the [`shiny`](https://shiny.rstudio.com/) framework,
-based on [Chapter 16](https://info201.github.io/shiny.html) 
-of the [Technical Foundations of Informatics](https://info201.github.io/) course book. 
+This repository contains programming exercises for generating interactive data apps with the [`shiny`](https://shiny.rstudio.com/) framework,
+
+based on Chapter 19 of [_Programming Skills for Data Science_](https://programming-for-data-science.github.io/).
 
 Solutions can be found in the `solution` branch.

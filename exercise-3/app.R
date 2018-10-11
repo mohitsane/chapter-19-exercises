@@ -93,14 +93,6 @@ server <- function(input, output) {
     p # return the plot
   })
 
-  # Bonus: Assign a reactive `renderDataTable()` function to the outputted table
-  # You may want to use a stand-alone reactive functionto avoid needing to
-  # filter the data twice!
-  output$table <- renderDataTable({
-    filtered() # return the data to render
-  })
-}
-
 # Create a new `shinyApp()` using the above ui and server
 shinyApp(ui = ui, server = server)
 
