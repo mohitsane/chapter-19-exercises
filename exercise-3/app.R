@@ -70,11 +70,6 @@ select_values <- colnames(diamonds)
     
 
 
-  # Bonus: Assign a reactive `renderDataTable()` function to the outputted table
-  # You may want to use a stand-alone reactive functionto avoid needing to 
-  # filter the data twice!
-
-
 # Create a new `shinyApp()` using the above ui and server
 
 
