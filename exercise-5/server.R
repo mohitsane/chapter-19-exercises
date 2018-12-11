@@ -4,7 +4,7 @@ library(shiny)
 library(ggplot2)
 # Create a shiny server that creates a scatterplot. 
 
-# It should take as an input the x_var, y_var, color, and size
+# It should use an `input` with features: `x_var`, `y_var`, `color`, and `size`
 # Save the result of `renderPlot` to output$scatter
 shinyServer(function(input, output) {
   output$scatter <- renderPlot({
